@@ -1,0 +1,42 @@
+.background-image {
+  background-image: url(/underConstructions/img2/Screenshot\ 2021-03-07\ 114616.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 1360px;
+  margin-left: -30px;
+}
+
+li {
+  float: left;
+  border-right: 1px solid #bbb;
+  border-left: 1px solid #bbb;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+a:active {
+  background-color: #4caf50;
+}
+
+li:last-child {
+  border-right: none;
+}
